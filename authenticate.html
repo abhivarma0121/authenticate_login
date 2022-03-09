@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication</title>
+    <script src="authenticate.js"></script>
+    <link rel="stylesheet" href="authenticate.css">
+</head>
+<body>
+    
+    <form >
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="enter username" required>
+        <input type="password" id="password" placeholder="enter password" required>
+        <button type="submit" id="submit" onclick="authenticate(document.getElementById('username').value,document.getElementById('password').value)">submit</button>
+    </form>
+
+</body>
+</html>
+
+<!-- usernames= [{ username: "abhivarma0121@gmail.com",password: "1234567890"},
+{ username: "123@gmail,com",password: "1234567890"},
+{ username: "asd@gmail.com",password: "asdfghjkl"}]; -->
